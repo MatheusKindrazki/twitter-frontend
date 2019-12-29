@@ -51,5 +51,16 @@ export const Container = styled.div`
         }
       }
     }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      max-width: 600px;
+
+      padding-top: 20px;
+
+      list-style: none;
+    }
   }
 `;

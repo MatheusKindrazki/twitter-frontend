@@ -5,7 +5,11 @@ import { Container } from "./styles";
 
 import history from "../../services/history";
 
+import documentTitle from "../../utils/documentTitle";
+
 export default function SignIn() {
+  documentTitle("Login");
+
   const [error, setError] = useState(null);
 
   function handleSubmit({ name }) {
