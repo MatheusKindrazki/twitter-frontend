@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Form, Input } from "@rocketseat/unform";
 
 import { Container } from "./styles";
@@ -6,6 +6,19 @@ import { Container } from "./styles";
 import history from "../../services/history";
 
 export default function SignIn() {
+  const [error, setError] = useState(null);
+
+  function handleSubmit({ name }) {
+    if (!name) {
+      setError("O Nome de usuário é obrigatório!");
+
+      return false;
+    }
+
+    localStorage.setItem("@Tweet:name", name);
+
+    history.push("/tweets");
+  }
   return (
     <Container>
       <div>
@@ -14,9 +27,9 @@ export default function SignIn() {
           alt="Twitter"
         />
 
-        <Form>
+        <Form onSubmit={handleSubmit}>
           <Input name="name" placeholder="Nome de usuário" type="text" />
-
+          {error && <p>{error}</p>}
           <button type="submit">Entrar</button>
         </Form>
       </div>

@@ -35,7 +35,6 @@ export const Container = styled.div`
 
       input {
         display: block;
-        margin-bottom: 20px;
         outline: none;
 
         border: 1px solid rgba(0, 0, 0, 0.1);
@@ -51,7 +50,15 @@ export const Container = styled.div`
         }
       }
 
+      p {
+        color: red;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
       button {
+        margin-top: 20px;
         background: #1da1f2;
         height: 45px;
         border: none;
