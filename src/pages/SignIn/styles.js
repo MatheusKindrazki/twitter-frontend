@@ -40,6 +40,8 @@ export const Container = styled.div`
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 2px;
         padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
 
         color: #333;
 
@@ -58,6 +60,7 @@ export const Container = styled.div`
       }
 
       button {
+        cursor: pointer;
         margin-top: 20px;
         background: #1da1f2;
         height: 45px;
