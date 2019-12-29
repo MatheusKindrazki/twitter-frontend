@@ -23,6 +23,7 @@ export const Container = styled.div`
     }
 
     form {
+      position: relative;
       display: flex;
       width: 100%;
       max-width: 600px;
@@ -53,14 +54,27 @@ export const Container = styled.div`
     }
 
     ul {
+      position: relative;
       margin: 0;
       padding: 0;
       width: 100%;
       max-width: 600px;
 
-      padding-top: 20px;
-
       list-style: none;
+      max-height: 66vh;
+      overflow-y: auto;
+
+      &::-webkit-scrollbar-track {
+        background-color: transparent;
+      }
+      &::-webkit-scrollbar {
+        width: 3px;
+        height: 10px;
+        background-color: transparent;
+      }
+      &::-webkit-scrollbar-thumb {
+        background-color: transparent;
+      }
     }
   }
 `;

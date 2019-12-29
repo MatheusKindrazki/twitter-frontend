@@ -58,6 +58,7 @@ export default function TimeLine() {
           <Textarea
             value={tweet}
             name="tweet"
+            maxLength="255"
             placeholder="O que está acontecendo?"
             onChange={e => setTweet(e.target.value)}
           />
