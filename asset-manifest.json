@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/twitter-frontend/static/js/main.41b11713.chunk.js",
-    "main.js.map": "/twitter-frontend/static/js/main.41b11713.chunk.js.map",
+    "main.js": "/twitter-frontend/static/js/main.10667cdc.chunk.js",
+    "main.js.map": "/twitter-frontend/static/js/main.10667cdc.chunk.js.map",
     "runtime-main.js": "/twitter-frontend/static/js/runtime-main.65c3b979.js",
     "runtime-main.js.map": "/twitter-frontend/static/js/runtime-main.65c3b979.js.map",
     "static/js/2.4b621c14.chunk.js": "/twitter-frontend/static/js/2.4b621c14.chunk.js",
     "static/js/2.4b621c14.chunk.js.map": "/twitter-frontend/static/js/2.4b621c14.chunk.js.map",
     "index.html": "/twitter-frontend/index.html",
-    "precache-manifest.65ef6f3d496bdd7ae55c2a35a72a075b.js": "/twitter-frontend/precache-manifest.65ef6f3d496bdd7ae55c2a35a72a075b.js",
+    "precache-manifest.b976866ec215c1f45f3399dd9c8db184.js": "/twitter-frontend/precache-manifest.b976866ec215c1f45f3399dd9c8db184.js",
     "service-worker.js": "/twitter-frontend/service-worker.js",
     "static/js/2.4b621c14.chunk.js.LICENSE": "/twitter-frontend/static/js/2.4b621c14.chunk.js.LICENSE",
     "static/media/like.svg": "/twitter-frontend/static/media/like.f471bb19.svg",
@@ -16,6 +16,6 @@
   "entrypoints": [
     "static/js/runtime-main.65c3b979.js",
     "static/js/2.4b621c14.chunk.js",
-    "static/js/main.41b11713.chunk.js"
+    "static/js/main.10667cdc.chunk.js"
   ]
 }
