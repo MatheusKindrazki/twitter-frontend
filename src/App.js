@@ -9,7 +9,7 @@ import history from "./services/history";
 
 export default function App() {
   return (
-    <Router history={history}>
+    <Router history={history} basename={process.env.PUBLIC_URL}>
       <Routes />
 
       <GlobalStyle />
